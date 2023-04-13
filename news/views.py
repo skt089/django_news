@@ -76,7 +76,7 @@ def article_detail(request, article_id):
         "form": form,
         "comments": comments
     }
-    return render(request, "news/article_detail.html", context)
+    return render(request, "pages/article_detail.html", context)
 
 
 def login_view(request):
